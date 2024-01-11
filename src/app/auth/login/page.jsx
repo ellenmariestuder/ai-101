@@ -1,8 +1,9 @@
+import LoginForm from "../../../components/auth/loginForm"
 
 
 const LoginPage = () => {
   return (
-    <div>LoginPage </div>
+    <div><LoginForm/> </div>
   )
 }
 

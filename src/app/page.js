@@ -1,16 +1,15 @@
 // app/page.js
 import React from "react";
-
+import SideBar from "../components/dashboard/sideBar";
 
 const Page = () => {
   return (
-    
-      <div>
-        <h1>This is a single page using a layout</h1>
-        <p>You can put your content here.</p>
-        
+    <div className=" w-full h-full min-h-screen bg-backgroundPrimary">
+      <div className="flex w-full h-full">
+        <SideBar />
+        <div>Dashboard</div>
       </div>
- 
+    </div>
   );
 };
 

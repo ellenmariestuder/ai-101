@@ -16,6 +16,7 @@ module.exports = {
         primary: "#063C5F",
         backgroundPrimary: "#FFF3E4",
         backgroundSecondary: "#fff",
+        buttonColor:"#013557",
       },
     },
   },
